@@ -1,0 +1,29 @@
+{
+  "name": "thoughtfultech.us",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "eleventy --serve",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtfultechnology/thoughtfultech.us.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoughtfultechnology/thoughtfultech.us/issues"
+  },
+  "homepage": "https://github.com/thoughtfultechnology/thoughtfultech.us#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
